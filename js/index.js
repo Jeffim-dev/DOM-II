@@ -22,6 +22,12 @@ changeImg.addEventListener('mouseleave', () => {
 });
 
 
+const changeColor = document.querySelector('.intro p')
+
+changeColor.addEventListener('dblclick', () => {
+    changeColor.style.color = 'red';
+});
+
 const logoH = document.querySelector('.logo-heading');
 
 document.addEventListener('keydown', () => {
